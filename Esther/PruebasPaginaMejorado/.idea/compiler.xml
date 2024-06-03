@@ -9,5 +9,8 @@
         <module name="PruebasPagina" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PruebasPagina" target="22" />
+    </bytecodeTargetLevel>
   </component>
 </project>
