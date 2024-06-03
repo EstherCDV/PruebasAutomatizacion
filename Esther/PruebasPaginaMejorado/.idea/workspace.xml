@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd70aadd-7ecb-4278-97a7-4687cb0e6905" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5e85666a-8ab1-488f-8656-5a7c736943c0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,36 +13,88 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
+  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2hEInnyIfbh8RHSsWlFeYaHkwvv" />
+  <component name="ProjectId" id="2h5QxliS9yv33PmcR2IBbj3Dttd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.LoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Esther&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MACUDVES/Documents/GitHub/PruebasAutomatizacion/PruebasPaginaMejorado&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Prueba1.executor": "Run",
+    "Application.Prueba2.executor": "Run",
+    "JUnit.LoginTest.executor": "Run",
+    "JUnit.LoginTest.testDuplicateImages.executor": "Run",
+    "JUnit.Prueba1.executor": "Run",
+    "JUnit.TestUsuarioBloquedo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/MACUDVES/Documents/GitHub/PruebasAutomatizacion/PruebasPaginaMejorado",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/MACUDVES/IdeaProjects/PruebasPagina/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MACUDVES\IdeaProjects\PruebasPaginaMejorado\src\test\java\Prueba3" />
+      <recent name="C:\Users\MACUDVES\IdeaProjects\PruebasPaginaMejorado\src\test\java" />
+      <recent name="C:\Users\MACUDVES\IdeaProjects\PruebasPaginaMejorado\src\test\java\" />
+      <recent name="C:\Users\MACUDVES\IdeaProjects\PruebasPaginaMejorado\src\test\java\Prueba1\tests" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="LoginTest.testDuplicateImages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PruebasPagina" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Prueba2.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Prueba2.tests" />
+      <option name="MAIN_CLASS_NAME" value="Prueba2.tests.LoginTest" />
+      <option name="METHOD_NAME" value="testDuplicateImages" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="PruebasPaginaMejorado" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="PruebasPaginaMejorado" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LoginTest.testDuplicateImages" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -56,17 +106,24 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bd70aadd-7ecb-4278-97a7-4687cb0e6905" name="Changes" comment="" />
-      <created>1717152979637</created>
+      <changelist id="5e85666a-8ab1-488f-8656-5a7c736943c0" name="Changes" comment="" />
+      <created>1716881709033</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1717152979637</updated>
-      <workItem from="1717152980678" duration="2614000" />
-      <workItem from="1717395552643" duration="3762000" />
+      <updated>1716881709033</updated>
+      <workItem from="1716881710181" duration="3812000" />
+      <workItem from="1716889487340" duration="6698000" />
+      <workItem from="1716962432167" duration="17438000" />
+      <workItem from="1717051708971" duration="2036000" />
+      <workItem from="1717152929950" duration="49000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
