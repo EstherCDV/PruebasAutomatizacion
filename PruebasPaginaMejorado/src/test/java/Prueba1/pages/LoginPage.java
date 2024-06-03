@@ -2,10 +2,9 @@ package Prueba1.pages;
 
 import Prueba1.Locarors.PageLocator;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
 
-public class HomePage {
+public class LoginPage {
     private WebDriver driver;
 
     private By userText= By.id("user-name");
@@ -16,7 +15,7 @@ public class HomePage {
 
     PageLocator locator;
 
-    public HomePage(WebDriver driver) {
+    public LoginPage(WebDriver driver) {
         this.driver = driver;
         this.locator = new PageLocator(driver);
     }

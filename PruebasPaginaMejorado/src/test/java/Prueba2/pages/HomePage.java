@@ -12,25 +12,6 @@ public class HomePage {
     private WebDriver driver;
     private PageLocator locator;
 
-    public HomePage(WebDriver driver) {
-        this.driver = driver;
-        this.locator = new PageLocator(driver);
-    }
-
-    public void login(String username, String password) {
-        locator.getUserText().sendKeys(username);
-        locator.getPassword().sendKeys(password);
-        locator.getLoginButton().click();
-    }
-
-    public boolean isLoginSuccessful() {
-        try {
-            return locator.getInventoryContainer().isDisplayed();
-        } catch (Exception e) {
-            return false;
-        }
-    }
-
     public boolean areThereDuplicateImages() {
         List<WebElement> images = locator.getImages();
         Set<String> imageUrls = new HashSet<>();

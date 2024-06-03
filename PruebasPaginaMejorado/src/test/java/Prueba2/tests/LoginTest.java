@@ -1,6 +1,7 @@
 package Prueba2.tests;
 
 import Prueba2.pages.HomePage;
+import Prueba2.pages.LoginPage;
 import Prueba2.utils.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -13,25 +14,26 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 
 public class LoginTest {
     private WebDriver driver;
+    private LoginPage loginPage;
     private HomePage homePage;
 
     @BeforeEach
     public void setUp() {
         driver = WebDriverManager.getDriver();
         driver.get("https://www.saucedemo.com/");
-        homePage = new HomePage(driver);
+        loginPage = new LoginPage(driver);
     }
 
     @Test
     public void testLoginCorrecto() {
-        homePage.login("problem_user", "secret_sauce");
-        assertTrue(homePage.isLoginSuccessful(), "El login no fue exitoso");
+        loginPage.login("problem_user", "secret_sauce");
+        assertTrue(loginPage.isLoginSuccessful(), "El login no fue exitoso");
     }
 
     @Test
     public void testDuplicateImages() {
-        homePage.login("problem_user", "secret_sauce");
-        assertTrue(homePage.isLoginSuccessful(), "El login no fue exitoso");
+        loginPage.login("problem_user", "secret_sauce");
+        assertTrue(loginPage.isLoginSuccessful(), "El login no fue exitoso");
         assertFalse(homePage.areThereDuplicateImages(), "Hay imágenes duplicadas");
     }
 
