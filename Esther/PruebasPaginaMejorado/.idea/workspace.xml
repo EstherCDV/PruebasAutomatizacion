@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e85666a-8ab1-488f-8656-5a7c736943c0" name="Changes" comment="" />
+    <list default="true" id="5e85666a-8ab1-488f-8656-5a7c736943c0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Prueba2/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Prueba2/pages/HomePage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +20,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -36,6 +42,7 @@
     "JUnit.Prueba1.executor": "Run",
     "JUnit.TestUsuarioBloquedo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Esther",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/MACUDVES/Documents/GitHub/PruebasAutomatizacion/PruebasPaginaMejorado",
     "node.js.detected.package.eslint": "true",
@@ -76,19 +83,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="PruebasPaginaMejorado" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="PruebasPaginaMejorado" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LoginTest.testDuplicateImages" />
@@ -116,6 +110,7 @@
       <workItem from="1716962432167" duration="17438000" />
       <workItem from="1717051708971" duration="2036000" />
       <workItem from="1717152929950" duration="49000" />
+      <workItem from="1717401591359" duration="1360000" />
     </task>
     <servers />
   </component>

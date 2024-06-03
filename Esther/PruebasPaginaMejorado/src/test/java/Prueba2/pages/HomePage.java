@@ -12,8 +12,8 @@ public class HomePage {
     private WebDriver driver;
     private PageLocator locator;
 
-    public HomePage(WebDriver driver) {
-        this.driver = driver;
+    public HomePage(WebDriver Driver) {
+        this.driver = Driver;
         this.locator = new PageLocator(driver);
     }
 
