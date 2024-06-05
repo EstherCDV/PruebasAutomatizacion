@@ -1,6 +1,7 @@
 package pages;
 
 import locators.HomePageLocator;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 
 public class HomePage {
@@ -15,5 +16,17 @@ public class HomePage {
 
     public String getTitle() {
         return homePageLocator.getTitle().getText();
+    }
+
+    public void cerrapopup() {
+        homePageLocator.getClosebutton().click();
+    }
+
+    public boolean isPopupClosed() {
+        try {
+            return !homePageLocator.getPopup().isDisplayed();
+        } catch (NoSuchElementException e) {
+            return true; // Si no encuentra el elemento, significa que está cerrado
+        }
     }
 }

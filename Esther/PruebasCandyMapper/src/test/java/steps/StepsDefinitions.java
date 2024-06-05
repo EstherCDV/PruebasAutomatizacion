@@ -6,8 +6,9 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import pages.HomePage;
 import utils.WebDriverManager;
-
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
 public class StepsDefinitions {
     WebDriver driver;
     HomePage homePage;
@@ -28,5 +29,15 @@ public class StepsDefinitions {
     @Then("I should see the CandyMapper homepage")
     public void i_should_see_the_candymapper_homepage() {
         assertEquals(homePage.getTitle(),title);
+    }
+
+    @When("Yo cierro el pop-up")
+    public void yoCierroElPopUp() {
+        homePage.cerrapopup();
+    }
+
+    @Then("Ya no veo el pop-up")
+    public void yaNoVeoElPopUp() {
+        assertTrue(homePage.isPopupClosed());
     }
 }
