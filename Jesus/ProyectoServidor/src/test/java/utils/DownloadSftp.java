@@ -34,6 +34,10 @@ public class DownloadSftp {
             channel = (ChannelSftp) session.openChannel("sftp");
             channel.connect();
 
+            if (channel.isConnected()) {
+                System.out.println("Conexión establecida.");
+            }
+
             OutputStream out = new FileOutputStream(rutaArchivoLocal);
             String src = directorioRemoto + archivoRemoto;
             channel.get(src, out);
